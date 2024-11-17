@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Under Maintenance</title>
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="maintainance.css">
+</head>
+<body>
+
+  <!-- Section 1: Landing Page -->
+  <section class="section1">
+    <div>
+      <div class="icon">🔧</div>
+      <h1>We're Under Maintenance</h1>
+      <p>Just leave me a message~</p>
+    </div>
+  </section>
+
+  <!-- Section 2: Contact Form with black background -->
+  <section class="section2">
+    <div class="contact-container">
+      <div class="left">
+        <img src="../assets/ISAACfinale.png" alt="Logo">
+      </div>
+      <div class="right">
+        <h2>Leave a message!</h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="74aeecfa-7e5b-4c47-a952-521677091c5b">
+          <input type="text" name="name" class="field" placeholder="Your Name" required>
+          <input type="email" name="email" class="field" placeholder="Your Email" required>
+          <input type="text" name="phone" class="field" placeholder="Phone">
+          <textarea name="message" placeholder="Message" class="field" required></textarea>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 IC/DC. All rights reserved.</p>
+  </footer>
+
+  <!-- Link to the external JavaScript file -->
+  <script src="maintainance.js"></script>
+</body>
+</html>
